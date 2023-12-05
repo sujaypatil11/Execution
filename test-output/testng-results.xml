@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-04T10:54:13 IST" name="Suite" finished-at="2023-12-04T10:54:24 IST" duration-ms="10924">
+    <groups>
+      <group name="food">
+        <method signature="execution1.Swiggy()[pri:0, instance:Basic.execution1@738dc9b]" name="Swiggy" class="Basic.execution1"/>
+        <method signature="execution1.zomato()[pri:0, instance:Basic.execution1@738dc9b]" name="zomato" class="Basic.execution1"/>
+      </group> <!-- food -->
+    </groups>
+    <test started-at="2023-12-04T10:54:13 IST" name="Test" finished-at="2023-12-04T10:54:24 IST" duration-ms="10924">
+      <class name="Basic.execution1">
+        <test-method signature="Swiggy()[pri:0, instance:Basic.execution1@738dc9b]" started-at="2023-12-04T10:54:13 IST" name="Swiggy" finished-at="2023-12-04T10:54:18 IST" duration-ms="5229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Swiggy -->
+        <test-method signature="zomato()[pri:0, instance:Basic.execution1@738dc9b]" started-at="2023-12-04T10:54:18 IST" name="zomato" finished-at="2023-12-04T10:54:24 IST" duration-ms="5617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zomato -->
+      </class> <!-- Basic.execution1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
